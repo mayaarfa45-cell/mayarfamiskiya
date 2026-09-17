@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="futureGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#120E24" />
+      <stop offset="50%" stop-color="#241442" />
+      <stop offset="100%" stop-color="#0B0914" />
+    </linearGradient>
+    <linearGradient id="neonPurple" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8B5CF6" />
+      <stop offset="100%" stop-color="#EC4899" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="10" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+  <rect width="800" height="450" fill="url(#futureGrad)" />
+  
+  <!-- Grid Lines -->
+  <g stroke="rgba(139, 92, 246, 0.12)" stroke-width="1">
+    <line x1="100" y1="0" x2="100" y2="450" />
+    <line x1="200" y1="0" x2="200" y2="450" />
+    <line x1="300" y1="0" x2="300" y2="450" />
+    <line x1="400" y1="0" x2="400" y2="450" />
+    <line x1="500" y1="0" x2="500" y2="450" />
+    <line x1="600" y1="0" x2="600" y2="450" />
+    <line x1="700" y1="0" x2="700" y2="450" />
+    <line x1="0" y1="90" x2="800" y2="90" />
+    <line x1="0" y1="180" x2="800" y2="180" />
+    <line x1="0" y1="270" x2="800" y2="270" />
+    <line x1="0" y1="360" x2="800" y2="360" />
+  </g>
+
+  <!-- Glowing Central Orb -->
+  <circle cx="400" cy="225" r="90" fill="none" stroke="url(#neonPurple)" stroke-width="3" filter="url(#glow)" stroke-dasharray="8 6" />
+  <circle cx="400" cy="225" r="60" fill="rgba(139, 92, 246, 0.15)" stroke="#EC4899" stroke-width="2" />
+  <circle cx="400" cy="225" r="30" fill="url(#neonPurple)" filter="url(#glow)" opacity="0.8" />
+
+  <!-- Orbiting Nodes and Connecting Traces -->
+  <path d="M 220 150 Q 300 120 400 225 T 580 300" fill="none" stroke="rgba(236, 72, 153, 0.6)" stroke-width="2" stroke-dasharray="6 4" />
+  <path d="M 220 300 Q 300 330 400 225 T 580 150" fill="none" stroke="rgba(139, 92, 246, 0.6)" stroke-width="2" stroke-dasharray="6 4" />
+
+  <circle cx="220" cy="150" r="16" fill="#1C1533" stroke="#8B5CF6" stroke-width="2" />
+  <circle cx="220" cy="300" r="16" fill="#EC4899" stroke="#EC4899" stroke-width="2" />
+  <circle cx="580" cy="150" r="16" fill="#1C1533" stroke="#8B5CF6" stroke-width="2" />
+  <circle cx="580" cy="300" r="16" fill="#1C1533" stroke="#EC4899" stroke-width="2" />
+
+  <!-- Code / Rocket Glyphs -->
+  <text x="400" y="233" text-anchor="middle" font-family="'Poppins', sans-serif" font-size="24" fill="#FFFFFF">🚀</text>
+  <text x="400" y="380" text-anchor="middle" font-family="'Poppins', sans-serif" font-weight="600" font-size="20" fill="#E2E8F0" letter-spacing="2">NEXT GENERATION APP</text>
+  <text x="400" y="405" text-anchor="middle" font-family="'Inter', sans-serif" font-size="14" fill="#94A3B8">Next-level exploration • Future Innovation</text>
+</svg>
