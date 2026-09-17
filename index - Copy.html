@@ -1,0 +1,1283 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="light">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maya Arfa Miskiya | Student of Software Engineering</title>
+
+  <!-- SEO & Open Graph Meta Tags -->
+  <meta name="description"
+    content="Portfolio pribadi Maya Arfa Miskiya, siswi kelas XI Rekayasa Perangkat Lunak di SMK Negeri Tembarak.">
+  <meta name="keywords"
+    content="Maya Arfa Miskiya, Portfolio, SMK Negeri Tembarak, Rekayasa Perangkat Lunak, RPL, Siswi RPL, Web Developer, Database">
+  <meta name="author" content="Maya Arfa Miskiya">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#8B5CF6">
+
+  <meta property="og:title" content="Maya Arfa Miskiya | Student of Software Engineering">
+  <meta property="og:description"
+    content="Portfolio pribadi Maya Arfa Miskiya, siswi kelas XI Rekayasa Perangkat Lunak di SMK Negeri Tembarak.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/images/profile.jpg">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- ================= NAVBAR ================= -->
+  <header class="site-header" id="header">
+    <div class="nav-container">
+      <a href="#home" class="brand-logo" aria-label="Beranda Maya Arfa Miskiya">
+        Maya<span class="brand-dot">.</span>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="nav-menu" id="navMenu" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+          <li class="nav-item"><a href="#database" class="nav-link">Database</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#goals" class="nav-link">Goals</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Nav Actions (Theme Toggle & CTA) -->
+      <div class="nav-actions">
+        <button id="themeToggleBtn" class="theme-toggle-btn" aria-label="Ganti mode gelap/terang"
+          title="Toggle Dark/Light Mode">
+          <span class="theme-icon sun-icon" aria-hidden="true">☀️</span>
+          <span class="theme-icon moon-icon" aria-hidden="true">🌙</span>
+        </button>
+
+        <a href="#contact" class="btn btn-primary btn-nav-cta">
+          Let's Connect
+          <svg class="btn-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+            <polyline points="12 5 19 12 12 19"></polyline>
+          </svg>
+        </a>
+
+        <!-- Mobile Hamburger Button -->
+        <button id="hamburgerBtn" class="hamburger-btn" aria-label="Buka Menu Navigasi" aria-expanded="false"
+          aria-controls="navMenu">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ================= MAIN CONTENT ================= -->
+  <main id="main-content">
+
+    <!-- ================= 1. HERO SECTION ================= -->
+    <section id="home" class="hero-section">
+      <div class="glow-orb glow-orb-1"></div>
+      <div class="glow-orb glow-orb-2"></div>
+
+      <div class="container hero-grid">
+        <!-- Hero Left Column (Content) -->
+        <div class="hero-content reveal-item">
+          <div class="hero-badge">
+            <span class="badge-dot"></span>
+            Student of Software Engineering
+          </div>
+
+          <p class="hero-greeting">Hello, I'm</p>
+          <h1 class="hero-name">Maya Arfa <span class="gradient-text">Miskiya</span></h1>
+
+          <p class="hero-role-title">Rekayasa Perangkat Lunak • SMK Negeri Tembarak</p>
+
+          <p class="hero-description">
+            Saya adalah siswi kelas XI Rekayasa Perangkat Lunak di SMK Negeri Tembarak yang sedang belajar dan
+            mengembangkan kemampuan di bidang teknologi, pemrograman, dan database.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="#about" class="btn btn-primary">
+              Explore My Journey
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <line x1="12" y1="5" x2="12" y2="19"></line>
+                <polyline points="19 12 12 19 5 12"></polyline>
+              </svg>
+            </a>
+            <a href="#contact" class="btn btn-outline">
+              Contact Me
+            </a>
+          </div>
+
+          <div class="hero-social">
+            <span class="social-label">Follow My Journey:</span>
+            <a href="https://www.instagram.com/myarffa_/" target="_blank" rel="noopener noreferrer"
+              class="social-link instagram-link" aria-label="Instagram Maya @myarffa_">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+              </svg>
+              <span>@myarffa_</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Hero Right Column (Photo & Floating Decors) -->
+        <div class="hero-visual reveal-item">
+          <div class="profile-card-wrapper">
+            <!-- Background aura circle -->
+            <div class="profile-aura"></div>
+
+            <!-- Profile Photo Container -->
+            <!-- GANTI DENGAN FOTO MAYA -->
+            <div class="profile-photo-container">
+              <img src="assets/images/foto-maya.jpg" alt="Foto Profil Maya Arfa Miskiya" class="profile-img" width="460"
+                height="460" loading="eager">
+              <div class="photo-overlay-glow"></div>
+            </div>
+
+            <!-- Floating Tech Badges -->
+            <div class="floating-badge badge-database" title="Database Learning">
+              <span class="float-icon">🗄️</span>
+              <div class="float-text">
+                <span class="float-title">Database</span>
+                <span class="float-subtitle">MySQL & Relational</span>
+              </div>
+            </div>
+
+            <div class="floating-badge badge-code" title="Coding & RPL">
+              <span class="float-icon">💻</span>
+              <div class="float-text">
+                <span class="float-title">Code / RPL</span>
+                <span class="float-subtitle">Class XI Student</span>
+              </div>
+            </div>
+
+            <div class="floating-badge badge-laptop" title="Web Technologies">
+              <span class="float-icon">⚡</span>
+              <div class="float-text">
+                <span class="float-title">Web Dev</span>
+                <span class="float-subtitle">HTML • CSS • JS • PHP</span>
+              </div>
+            </div>
+
+            <!-- Floating Particles -->
+            <div class="floating-particle p1"></div>
+            <div class="floating-particle p2"></div>
+            <div class="floating-particle p3"></div>
+            <div class="floating-particle p4"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Story Concept Banner -->
+      <div class="concept-strip">
+        <div class="container concept-container">
+          <span class="concept-icon">✨</span>
+          <span class="concept-tagline">"My Journey — From Student to Future Developer"</span>
+          <span class="concept-dots">•</span>
+          <span class="concept-sub">Membangun fondasi teknologi dengan dedikasi dan semangat belajar</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 2. ABOUT ME ================= -->
+    <section id="about" class="section about-section">
+      <div class="container">
+        <div class="section-header reveal-item">
+          <span class="section-subtitle">Mengenal Lebih Dekat</span>
+          <h2 class="section-title">About Me</h2>
+          <div class="section-title-line"></div>
+        </div>
+
+        <div class="about-grid">
+          <!-- Storytelling Bio -->
+          <div class="about-story glass-card reveal-item">
+            <div class="story-badge">
+              <span class="story-badge-icon">📖</span>
+              <span>Cerita Perjalanan Saya</span>
+            </div>
+            <p class="story-lead">
+              Halo, saya <strong>Maya Arfa Miskiya</strong>, biasa dipanggil <strong>Maya</strong>. Saya merupakan siswi
+              kelas XI jurusan Rekayasa Perangkat Lunak di <strong>SMK Negeri Tembarak</strong>.
+            </p>
+            <p>
+              Saya memiliki ketertarikan terhadap dunia teknologi dan sedang mempelajari berbagai hal mengenai
+              pemrograman serta database. Dunia RPL memberikan saya kesempatan untuk mengubah ide kreatif menjadi logika
+              program yang bermanfaat dan aplikatif.
+            </p>
+            <p>
+              Selain belajar teknologi, saya juga memiliki pengalaman dalam organisasi dan kegiatan sekolah. Dari
+              pengalaman tersebut saya belajar mengenai komunikasi, tanggung jawab, keberanian, dan kerja sama tim.
+            </p>
+
+            <div class="quote-card">
+              <span class="quote-mark">“</span>
+              <p class="quote-text">
+                Belajar teknologi bukan hanya tentang menghafal baris kode, melainkan tentang ketekunan memahami logika
+                dan membangun solusi yang bermanfaat.
+              </p>
+            </div>
+          </div>
+
+          <!-- Information Cards Grid -->
+          <div class="info-cards-grid reveal-item">
+            <div class="info-card">
+              <div class="info-icon-wrapper icon-name">👩</div>
+              <div class="info-details">
+                <span class="info-label">Name</span>
+                <strong class="info-value">Maya Arfa Miskiya</strong>
+                <span class="info-sub">Panggilan: Maya</span>
+              </div>
+            </div>
+
+            <div class="info-card">
+              <div class="info-icon-wrapper icon-status">🎓</div>
+              <div class="info-details">
+                <span class="info-label">Status</span>
+                <strong class="info-value">Student (Pelajar)</strong>
+                <span class="info-sub">Kelas XI</span>
+              </div>
+            </div>
+
+            <div class="info-card">
+              <div class="info-icon-wrapper icon-school">🏫</div>
+              <div class="info-details">
+                <span class="info-label">School</span>
+                <strong class="info-value">SMK Negeri Tembarak</strong>
+                <span class="info-sub">Temanggung, Jawa Tengah</span>
+              </div>
+            </div>
+
+            <div class="info-card">
+              <div class="info-icon-wrapper icon-major">💻</div>
+              <div class="info-details">
+                <span class="info-label">Major</span>
+                <strong class="info-value">Software Engineering</strong>
+                <span class="info-sub">Rekayasa Perangkat Lunak (RPL)</span>
+              </div>
+            </div>
+
+            <div class="info-card">
+              <div class="info-icon-wrapper icon-loc">📍</div>
+              <div class="info-details">
+                <span class="info-label">Location (Domisili)</span>
+                <strong class="info-value">Temanggung</strong>
+                <span class="info-sub">Jawa Tengah, Indonesia</span>
+              </div>
+            </div>
+
+            <div class="info-card">
+              <div class="info-icon-wrapper icon-hobby">🎤</div>
+              <div class="info-details">
+                <span class="info-label">Hobby</span>
+                <strong class="info-value">Singing (Menyanyi)</strong>
+                <span class="info-sub">Seni & Ekspresi Diri</span>
+              </div>
+            </div>
+
+            <!-- Additional Info Card (Birthdate & Birthplace) -->
+            <div class="info-card info-card-full">
+              <div class="info-icon-wrapper icon-calendar">📅</div>
+              <div class="info-details">
+                <span class="info-label">Informasi Tambahan</span>
+                <strong class="info-value">Tempat & Tanggal Lahir</strong>
+                <span class="info-sub">Temanggung, 3 Desember 2009</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 3. EDUCATION JOURNEY ================= -->
+    <section id="education" class="section education-section">
+      <div class="container">
+        <div class="section-header reveal-item">
+          <span class="section-subtitle">Rangkaian Jejak Langkah</span>
+          <h2 class="section-title">My Education Journey</h2>
+          <div class="section-title-line"></div>
+          <p class="section-intro">
+            Setiap jenjang memberikan pengalaman berharga yang membentuk karakter, kedisiplinan, dan ketertarikan saya
+            terhadap dunia pendidikan serta teknologi.
+          </p>
+        </div>
+
+        <div class="timeline-container">
+          <div class="timeline-track"></div>
+
+          <!-- Timeline Item 1: TK -->
+          <div class="timeline-item reveal-item">
+            <div class="timeline-node">
+              <span class="timeline-icon">🌱</span>
+            </div>
+            <div class="timeline-card glass-card">
+              <div class="timeline-header">
+                <span class="timeline-period-badge">Fase Awal • Pendidikan Kanak-Kanak</span>
+                <h3 class="timeline-school-name">TK Budi Utami</h3>
+              </div>
+              <p class="timeline-desc">
+                Awal perjalanan pendidikan saya dimulai dari TK Budi Utami. Di sinilah rasa ingin tahu dan kegemaran
+                belajar mulai tumbuh sejak dini.
+              </p>
+            </div>
+          </div>
+
+          <!-- Timeline Item 2: MI -->
+          <div class="timeline-item reveal-item">
+            <div class="timeline-node">
+              <span class="timeline-icon">📚</span>
+            </div>
+            <div class="timeline-card glass-card">
+              <div class="timeline-header">
+                <span class="timeline-period-badge">Pendidikan Dasar</span>
+                <span class="timeline-location-tag">📍 Kaloran, Temanggung</span>
+                <h3 class="timeline-school-name">MI Al-Mujahidin Tlogowunggu</h3>
+              </div>
+              <p class="timeline-desc">
+                Saya melanjutkan pendidikan dasar di MI Al-Mujahidin Tlogowunggu, Kaloran, Temanggung. Menanamkan
+                nilai-nilai moral, kebersamaan, dan ketekunan akademik.
+              </p>
+            </div>
+          </div>
+
+          <!-- Timeline Item 3: MTs -->
+          <div class="timeline-item reveal-item">
+            <div class="timeline-node">
+              <span class="timeline-icon">🏛️</span>
+            </div>
+            <div class="timeline-card glass-card">
+              <div class="timeline-header">
+                <span class="timeline-period-badge">Madrasah Tsanawiyah</span>
+                <span class="timeline-badge-highlight">Termasuk Pengalaman Organisasi</span>
+                <h3 class="timeline-school-name">MTs Negeri 2 Temanggung</h3>
+              </div>
+              <p class="timeline-desc">
+                Saya melanjutkan pendidikan ke jenjang madrasah tsanawiyah di MTs Negeri 2 Temanggung. Pada jenjang ini,
+                saya mulai aktif dalam kegiatan organisasi sekolah (OSIS) dan mengasah keterampilan kepemimpinan serta
+                komunikasi antarsesama.
+              </p>
+            </div>
+          </div>
+
+          <!-- Timeline Item 4: SMK (Current) -->
+          <div class="timeline-item timeline-item-current reveal-item">
+            <div class="timeline-node active-node">
+              <span class="timeline-icon">🚀</span>
+            </div>
+            <div class="timeline-card glass-card active-card">
+              <div class="timeline-header">
+                <span class="timeline-period-badge badge-active">Pendidikan Kejuruan • Saat Ini</span>
+                <span class="timeline-class-tag">Kelas XI • Rekayasa Perangkat Lunak (RPL)</span>
+                <h3 class="timeline-school-name">SMK Negeri Tembarak</h3>
+              </div>
+              <p class="timeline-desc">
+                Saat ini saya menempuh pendidikan di SMK Negeri Tembarak dan mengambil jurusan Rekayasa Perangkat Lunak.
+                Saya sedang mengembangkan kemampuan di bidang pemrograman dan database, mempersiapkan fondasi untuk
+                menjadi developer masa depan.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 4. SMP & SMK EXPERIENCE ================= -->
+    <section id="experience" class="section experience-section">
+      <div class="container">
+        <!-- 4a. SMP Experience -->
+        <div class="experience-block">
+          <div class="section-header reveal-item">
+            <span class="section-subtitle">Pengalaman Organisasi & Kepemimpinan</span>
+            <h2 class="section-title">My SMP Experience</h2>
+            <div class="section-title-line"></div>
+          </div>
+
+          <div class="experience-grid">
+            <div class="experience-card glass-card reveal-item">
+              <div class="exp-card-header">
+                <div class="exp-icon-box">🤝</div>
+                <div>
+                  <h3 class="exp-role">Organisasi OSIS</h3>
+                  <span class="exp-meta">MTs Negeri 2 Temanggung</span>
+                </div>
+              </div>
+              <p class="exp-text">
+                Saya pernah mengikuti organisasi OSIS saat SMP. Di dalam organisasi ini, saya aktif berpartisipasi dalam
+                perencanaan berbagai kegiatan sekolah, berdiskusi dengan rekan-rekan pengurus, dan berkontribusi untuk
+                kemajuan lingkungan sekolah.
+              </p>
+            </div>
+
+            <div class="experience-card glass-card reveal-item">
+              <div class="exp-card-header">
+                <div class="exp-icon-box">🌟</div>
+                <div>
+                  <h3 class="exp-role">Candidate for Student Council President</h3>
+                  <span class="exp-meta">Kandidat Ketua OSIS saat SMP</span>
+                </div>
+              </div>
+              <p class="exp-text">
+                Saya pernah menjadi kandidat Ketua OSIS saat SMP. Proses pencalonan ini memberikan pembelajaran berharga
+                tentang bagaimana menyampaikan visi, berani berbicara di hadapan publik, dan mendengarkan aspirasi warga
+                sekolah.
+              </p>
+            </div>
+          </div>
+
+          <!-- Skills developed in SMP -->
+          <div class="skills-growth-card glass-card reveal-item">
+            <h4 class="growth-title">Nilai & Keterampilan yang Berkembang Selama SMP:</h4>
+            <div class="growth-tags">
+              <span class="growth-tag"><span class="growth-icon">🎯</span> Leadership</span>
+              <span class="growth-tag"><span class="growth-icon">🗣️</span> Communication</span>
+              <span class="growth-tag"><span class="growth-icon">🛡️</span> Responsibility</span>
+              <span class="growth-tag"><span class="growth-icon">✨</span> Confidence</span>
+              <span class="growth-tag"><span class="growth-icon">👥</span> Teamwork</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4b. SMK Experience -->
+        <div class="experience-block smk-block">
+          <div class="section-header reveal-item">
+            <span class="section-subtitle">Langkah Nyata di Bidang Teknologi</span>
+            <h2 class="section-title">My SMK Experience</h2>
+            <div class="section-title-line"></div>
+          </div>
+
+          <div class="smk-grid">
+            <div class="smk-intro-card glass-card reveal-item">
+              <div class="tech-card-header">
+                <div class="tech-icon-box">💻</div>
+                <div>
+                  <h3 class="tech-title">Rekayasa Perangkat Lunak</h3>
+                  <span class="tech-meta">SMK Negeri Tembarak</span>
+                </div>
+              </div>
+              <p class="smk-desc">
+                Di SMK Negeri Tembarak, saya memilih jurusan Rekayasa Perangkat Lunak dan mulai mempelajari dunia
+                teknologi serta pengembangan perangkat lunak. Saya belajar bagaimana merancang logika terstruktur,
+                menyusun antarmuka web, dan menghubungkan aplikasi dengan data.
+              </p>
+            </div>
+
+            <div class="smk-learning-card glass-card reveal-item">
+              <div class="tech-card-header">
+                <div class="tech-icon-box">🛠️</div>
+                <div>
+                  <h3 class="tech-title">Programming Learning</h3>
+                  <span class="tech-status-badge">Previously Studied / Currently Learning</span>
+                </div>
+              </div>
+              <p class="smk-desc">
+                Teknologi dan bahasa pemrograman yang pernah dan sedang saya pelajari secara bertahap:
+              </p>
+
+              <div class="tech-pills-container">
+                <div class="tech-pill">
+                  <span class="tech-pill-icon">🌐</span>
+                  <span class="tech-pill-name">HTML</span>
+                  <span class="tech-pill-level">Fundamental</span>
+                </div>
+                <div class="tech-pill">
+                  <span class="tech-pill-icon">🎨</span>
+                  <span class="tech-pill-name">CSS</span>
+                  <span class="tech-pill-level">Styling & Layout</span>
+                </div>
+                <div class="tech-pill">
+                  <span class="tech-pill-icon">⚡</span>
+                  <span class="tech-pill-name">JavaScript</span>
+                  <span class="tech-pill-level">Interactivity</span>
+                </div>
+                <div class="tech-pill">
+                  <span class="tech-pill-icon">🐘</span>
+                  <span class="tech-pill-name">PHP</span>
+                  <span class="tech-pill-level">Backend Logic</span>
+                </div>
+                <div class="tech-pill">
+                  <span class="tech-pill-icon">🐬</span>
+                  <span class="tech-pill-name">MySQL</span>
+                  <span class="tech-pill-level">RDBMS Query</span>
+                </div>
+                <div class="tech-pill">
+                  <span class="tech-pill-icon">🗄️</span>
+                  <span class="tech-pill-name">Database</span>
+                  <span class="tech-pill-level">Structure & Schema</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 5. DATABASE SECTION ================= -->
+    <section id="database" class="section database-section">
+      <div class="container">
+        <div class="section-header reveal-item">
+          <span class="section-subtitle">Fokus Pembelajaran Khusus</span>
+          <h2 class="section-title">Database Journey</h2>
+          <div class="section-title-line"></div>
+          <p class="section-intro">
+            Salah satu bidang yang saya pelajari dalam jurusan RPL adalah database. Saya belajar mengenai pembuatan,
+            pengelolaan, dan penggunaan database sebagai bagian dari pengembangan aplikasi.
+          </p>
+        </div>
+
+        <div class="database-card glass-card reveal-item">
+          <div class="database-content">
+            <h3 class="db-card-title">Struktur Alur Basis Data yang Dipelajari</h3>
+            <p class="db-card-subtitle">
+              Memahami bagaimana data mentah ditransformasikan menjadi informasi yang terstruktur, aman, dan saling
+              terhubung dalam aplikasi perangkat lunak.
+            </p>
+
+            <!-- Interactive Architecture Diagram: Database -> Tables -> Relationships -> Data -->
+            <div class="db-diagram-wrapper" id="databaseDiagram">
+
+              <!-- Step 1: Database -->
+              <div class="db-diagram-step" data-step="1">
+                <div class="step-icon-circle">
+                  <span class="step-icon">🗄️</span>
+                </div>
+                <div class="step-content">
+                  <span class="step-number">Langkah 01</span>
+                  <h4 class="step-title">Database</h4>
+                  <p class="step-desc">Wadah utama penyimpanan seluruh koleksi skema dan entitas sistem aplikasi.</p>
+                </div>
+              </div>
+
+              <div class="diagram-arrow-down">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="12" y1="5" x2="12" y2="19"></line>
+                  <polyline points="19 12 12 19 5 12"></polyline>
+                </svg>
+              </div>
+
+              <!-- Step 2: Tables -->
+              <div class="db-diagram-step" data-step="2">
+                <div class="step-icon-circle">
+                  <span class="step-icon">📋</span>
+                </div>
+                <div class="step-content">
+                  <span class="step-number">Langkah 02</span>
+                  <h4 class="step-title">Tables</h4>
+                  <p class="step-desc">Struktur kolom (attributes) dan baris (records) untuk memodelkan objek secara
+                    terorganisir.</p>
+                </div>
+              </div>
+
+              <div class="diagram-arrow-down">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="12" y1="5" x2="12" y2="19"></line>
+                  <polyline points="19 12 12 19 5 12"></polyline>
+                </svg>
+              </div>
+
+              <!-- Step 3: Relationships -->
+              <div class="db-diagram-step" data-step="3">
+                <div class="step-icon-circle">
+                  <span class="step-icon">🔗</span>
+                </div>
+                <div class="step-content">
+                  <span class="step-number">Langkah 03</span>
+                  <h4 class="step-title">Relationships</h4>
+                  <p class="step-desc">Relasi antar-tabel (Primary Key & Foreign Key) untuk menjaga integritas data.</p>
+                </div>
+              </div>
+
+              <div class="diagram-arrow-down">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="12" y1="5" x2="12" y2="19"></line>
+                  <polyline points="19 12 12 19 5 12"></polyline>
+                </svg>
+              </div>
+
+              <!-- Step 4: Data -->
+              <div class="db-diagram-step" data-step="4">
+                <div class="step-icon-circle">
+                  <span class="step-icon">📊</span>
+                </div>
+                <div class="step-content">
+                  <span class="step-number">Langkah 04</span>
+                  <h4 class="step-title">Data</h4>
+                  <p class="step-desc">Informasi aktual yang dikelola, dimanipulasi dengan query (CRUD), dan ditampilkan
+                    kepada pengguna.</p>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="db-note-box">
+              <span class="db-note-icon">💡</span>
+              <p class="db-note-text">
+                <strong>Prinsip Pembelajaran:</strong> Fokus pada pemahaman dasar perancangan database relasional yang
+                rapi, normalisasi data, serta eksekusi query MySQL yang efektif untuk mendukung sistem informasi sekolah
+                dan aplikasi web.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 6. SCHOOL ACTIVITIES ================= -->
+    <section id="activities" class="section activities-section">
+      <div class="container">
+        <div class="section-header reveal-item">
+          <span class="section-subtitle">Aktivitas & Pengembangan Diri</span>
+          <h2 class="section-title">School Activities</h2>
+          <div class="section-title-line"></div>
+        </div>
+
+        <div class="activities-grid">
+          <!-- Activity 1: MC -->
+          <div class="activity-card glass-card reveal-item">
+            <div class="act-header">
+              <div class="act-icon-wrapper mc-icon">🎤</div>
+              <div>
+                <span class="act-badge">Public Speaking</span>
+                <h3 class="act-title">MC (Master of Ceremony)</h3>
+              </div>
+            </div>
+            <p class="act-desc">
+              Saya pernah menjadi MC saat acara organisasi di sekolah. Pengalaman ini melatih keberanian saya berbicara
+              di depan audiens, memandu jalannya acara dengan tertib, dan meningkatkan kepekaan komunikasi publik.
+            </p>
+            <div class="act-tags">
+              <span class="act-tag">Public Speaking</span>
+              <span class="act-tag">Komunikasi Percaya Diri</span>
+              <span class="act-tag">Manajemen Acara</span>
+            </div>
+          </div>
+
+          <!-- Activity 2: Taekwondo -->
+          <div class="activity-card glass-card reveal-item">
+            <div class="act-header">
+              <div class="act-icon-wrapper martial-icon">🥋</div>
+              <div>
+                <span class="act-badge">Ekstrakurikuler</span>
+                <h3 class="act-title">Taekwondo</h3>
+              </div>
+            </div>
+            <p class="act-desc">
+              Saya pernah mengikuti ekstrakurikuler Taekwondo. Melalui latihan fisik dan mental di seni bela diri ini,
+              saya mempelajari pentingnya kedisiplinan diri, ketahanan fokus, serta komitmen untuk terus berlatih.
+            </p>
+            <div class="act-values-list">
+              <div class="act-value-item">
+                <span class="val-check">✓</span>
+                <strong>Discipline</strong> — Menghargai waktu dan instruksi latihan.
+              </div>
+              <div class="act-value-item">
+                <span class="val-check">✓</span>
+                <strong>Confidence</strong> — Membangun keberanian menghadapi tantangan.
+              </div>
+              <div class="act-value-item">
+                <span class="val-check">✓</span>
+                <strong>Consistency</strong> — Terus berlatih menjaga ketahanan fisik dan mental.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 7. SKILLS SECTION ================= -->
+    <section id="skills" class="section skills-section">
+      <div class="container">
+        <div class="section-header reveal-item">
+          <span class="section-subtitle">Kemampuan & Kompetensi</span>
+          <h2 class="section-title">My Skills</h2>
+          <div class="section-title-line"></div>
+          <p class="section-intro">
+            Kombinasi antara pemahaman teknis di bidang software engineering dan keterampilan interpersonal yang terus
+            diasah secara berkesinambungan.
+          </p>
+        </div>
+
+        <div class="skills-wrapper-grid">
+          <!-- Technical Skills Column -->
+          <div class="skills-category-card glass-card reveal-item">
+            <div class="cat-header">
+              <div class="cat-icon-box">💻</div>
+              <div>
+                <h3 class="cat-title">Technical Skills</h3>
+                <span class="cat-status-badge">Learning / Previously Studied</span>
+              </div>
+            </div>
+
+            <div class="skills-list">
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span class="skill-name">🗄️ Database</span>
+                  <span class="skill-status-tag">Currently Learning</span>
+                </div>
+                <div class="skill-visual-bar">
+                  <div class="skill-visual-fill fill-tech-1"></div>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span class="skill-name">🐬 MySQL</span>
+                  <span class="skill-status-tag">Currently Learning</span>
+                </div>
+                <div class="skill-visual-bar">
+                  <div class="skill-visual-fill fill-tech-2"></div>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span class="skill-name">🌐 HTML</span>
+                  <span class="skill-status-tag">Previously Studied</span>
+                </div>
+                <div class="skill-visual-bar">
+                  <div class="skill-visual-fill fill-tech-3"></div>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span class="skill-name">🎨 CSS</span>
+                  <span class="skill-status-tag">Previously Studied</span>
+                </div>
+                <div class="skill-visual-bar">
+                  <div class="skill-visual-fill fill-tech-4"></div>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span class="skill-name">⚡ JavaScript</span>
+                  <span class="skill-status-tag">Currently Learning</span>
+                </div>
+                <div class="skill-visual-bar">
+                  <div class="skill-visual-fill fill-tech-5"></div>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span class="skill-name">🐘 PHP</span>
+                  <span class="skill-status-tag">Currently Learning</span>
+                </div>
+                <div class="skill-visual-bar">
+                  <div class="skill-visual-fill fill-tech-6"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Soft Skills Column -->
+          <div class="skills-category-card glass-card reveal-item">
+            <div class="cat-header">
+              <div class="cat-icon-box">🤝</div>
+              <div>
+                <h3 class="cat-title">Soft Skills</h3>
+                <span class="cat-status-badge soft-badge">Interpersonal & Character</span>
+              </div>
+            </div>
+
+            <div class="skills-list">
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span class="skill-name">💬 Communication</span>
+                  <span class="skill-status-tag">Active</span>
+                </div>
+                <div class="skill-visual-bar">
+                  <div class="skill-visual-fill fill-soft-1"></div>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span class="skill-name">🎤 Public Speaking</span>
+                  <span class="skill-status-tag">Practiced in MC</span>
+                </div>
+                <div class="skill-visual-bar">
+                  <div class="skill-visual-fill fill-soft-2"></div>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span class="skill-name">👥 Teamwork</span>
+                  <span class="skill-status-tag">Collaborative</span>
+                </div>
+                <div class="skill-visual-bar">
+                  <div class="skill-visual-fill fill-soft-3"></div>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span class="skill-name">👑 Leadership Experience</span>
+                  <span class="skill-status-tag">OSIS Candidate</span>
+                </div>
+                <div class="skill-visual-bar">
+                  <div class="skill-visual-fill fill-soft-4"></div>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-header">
+                  <span class="skill-name">🥋 Discipline</span>
+                  <span class="skill-status-tag">Taekwondo & Study</span>
+                </div>
+                <div class="skill-visual-bar">
+                  <div class="skill-visual-fill fill-soft-5"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 8. HOBBY SECTION (BEYOND CODING) ================= -->
+    <section id="hobby" class="section hobby-section">
+      <div class="container">
+        <div class="hobby-card-container reveal-item">
+          <div class="hobby-aura-circle"></div>
+
+          <div class="hobby-card glass-card">
+            <div class="hobby-tag">
+              <span class="music-note-icon">🎵</span>
+              <span>Beyond Coding</span>
+            </div>
+
+            <h2 class="hobby-title">🎤 Singing (Menyanyi)</h2>
+
+            <p class="hobby-description">
+              Selain dunia teknologi, saya memiliki hobi menyanyi. Menyanyi menjadi salah satu kegiatan yang saya sukai
+              dan menjadi cara untuk mengekspresikan diri, menyegarkan pikiran setelah belajar coding, serta melatih
+              kepekaan seni dan rasa.
+            </p>
+
+            <!-- Musical Wave Visualizer Animation -->
+            <div class="audio-wave-visualizer" aria-hidden="true">
+              <span class="wave-bar wb-1"></span>
+              <span class="wave-bar wb-2"></span>
+              <span class="wave-bar wb-3"></span>
+              <span class="wave-bar wb-4"></span>
+              <span class="wave-bar wb-5"></span>
+              <span class="wave-bar wb-6"></span>
+              <span class="wave-bar wb-7"></span>
+              <span class="wave-bar wb-8"></span>
+              <span class="wave-bar wb-9"></span>
+              <span class="wave-bar wb-10"></span>
+            </div>
+
+            <div class="hobby-subtext">
+              <span>🎶 "Melodi memberikan ritme, teknologi memberikan solusi."</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 9. PROJECTS SECTION ================= -->
+    <section id="projects" class="section projects-section">
+      <div class="container">
+        <div class="section-header reveal-item">
+          <span class="section-subtitle">Koleksi Karya & Eksplorasi</span>
+          <h2 class="section-title">My Projects</h2>
+          <div class="section-title-line"></div>
+          <p class="section-intro">
+            Daftar rancangan proyek perangkat lunak dan database yang merefleksikan proses belajar serta eksplorasi
+            teknologi kejuruan.
+          </p>
+        </div>
+
+        <!-- TAMBAHKAN PROJECT ASLI MAYA DI SINI -->
+        <div class="projects-grid">
+
+          <!-- Card 1: Database Project -->
+          <article class="project-card glass-card reveal-item">
+            <div class="project-img-wrapper">
+              <img src="assets/images/project-database.jpg" alt="Preview Database Project Maya" class="project-img"
+                loading="lazy">
+              <span class="project-cat-badge">Database System</span>
+            </div>
+            <div class="project-body">
+              <h3 class="project-name">Database Project</h3>
+              <p class="project-desc">
+                Tambahkan project database Maya di sini. Proyek ini mendokumentasikan skema relasional, rancangan tabel,
+                dan implementasi query MySQL.
+              </p>
+              <div class="project-tech-tags">
+                <span class="tech-tag">MySQL</span>
+                <span class="tech-tag">Relational DB</span>
+                <span class="tech-tag">SQL Query</span>
+              </div>
+              <div class="project-footer">
+                <button class="btn btn-sm btn-outline project-btn" data-project="Database Project"
+                  onclick="openProjectModal('Database Project', 'Rancangan skema database relasional yang mencakup desain tabel, relasi foreign key, dan query pengolahan data.')">
+                  View Project
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 2: Web Project -->
+          <article class="project-card glass-card reveal-item">
+            <div class="project-img-wrapper">
+              <img src="assets/images/project-web.jpg" alt="Preview Web Project Maya" class="project-img"
+                loading="lazy">
+              <span class="project-cat-badge">Frontend Web</span>
+            </div>
+            <div class="project-body">
+              <h3 class="project-name">Web Project</h3>
+              <p class="project-desc">
+                Tambahkan project website Maya di sini. Menampilkan antarmuka interaktif yang dibangun menggunakan HTML,
+                CSS modern, dan JavaScript.
+              </p>
+              <div class="project-tech-tags">
+                <span class="tech-tag">HTML5</span>
+                <span class="tech-tag">CSS3</span>
+                <span class="tech-tag">JavaScript</span>
+              </div>
+              <div class="project-footer">
+                <button class="btn btn-sm btn-outline project-btn" data-project="Web Project"
+                  onclick="openProjectModal('Web Project', 'Aplikasi antarmuka web interaktif dengan desain modern, responsif untuk berbagai perangkat, dan clean UI.')">
+                  View Project
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 3: School Project -->
+          <article class="project-card glass-card reveal-item">
+            <div class="project-img-wrapper">
+              <img src="assets/images/project-school.jpg" alt="Preview School Project Maya" class="project-img"
+                loading="lazy">
+              <span class="project-cat-badge">SMK RPL</span>
+            </div>
+            <div class="project-body">
+              <h3 class="project-name">School Project</h3>
+              <p class="project-desc">
+                Tambahkan project sekolah Maya di sini. Tugas praktik kejuruan Rekayasa Perangkat Lunak untuk
+                menyelesaikan studi kasus di lingkungan sekolah.
+              </p>
+              <div class="project-tech-tags">
+                <span class="tech-tag">PHP</span>
+                <span class="tech-tag">MySQL</span>
+                <span class="tech-tag">School App</span>
+              </div>
+              <div class="project-footer">
+                <button class="btn btn-sm btn-outline project-btn" data-project="School Project"
+                  onclick="openProjectModal('School Project', 'Proyek studi kasus kejuruan Rekayasa Perangkat Lunak di SMK Negeri Tembarak yang mengintegrasikan backend dan database.')">
+                  View Project
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 4: Future Project -->
+          <article class="project-card glass-card reveal-item">
+            <div class="project-img-wrapper">
+              <img src="assets/images/project-future.svg" alt="Preview Future Project Maya" class="project-img"
+                loading="lazy">
+              <span class="project-cat-badge">Future Concept</span>
+            </div>
+            <div class="project-body">
+              <h3 class="project-name">Future Project</h3>
+              <p class="project-desc">
+                Project berikutnya yang ingin saya buat. Eksplorasi aplikasi perangkat lunak yang lebih kompleks,
+                mengintegrasikan sistem data modern dan arsitektur web terkini.
+              </p>
+              <div class="project-tech-tags">
+                <span class="tech-tag">Next-Gen Web</span>
+                <span class="tech-tag">Fullstack Logic</span>
+                <span class="tech-tag">Innovation</span>
+              </div>
+              <div class="project-footer">
+                <button class="btn btn-sm btn-outline project-btn" data-project="Future Project"
+                  onclick="openProjectModal('Future Project', 'Visi proyek masa depan yang akan dibangun seiring bertambahnya keahlian pemrograman dan pengalaman perkuliahan nantinya.')">
+                  View Project
+                </button>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 10. FUTURE GOALS ================= -->
+    <section id="goals" class="section goals-section">
+      <div class="container">
+        <div class="section-header reveal-item">
+          <span class="section-subtitle">Aspirasi & Rencana Masa Depan</span>
+          <h2 class="section-title">My Future Goals</h2>
+          <div class="section-title-line"></div>
+
+          <div class="goals-lead-box glass-card reveal-item">
+            <p class="goals-lead-text">
+              Setelah menyelesaikan pendidikan SMK, saya memiliki keinginan untuk melanjutkan pendidikan ke jenjang
+              perguruan tinggi. Saya ingin terus belajar, mengembangkan kemampuan di bidang teknologi, memperbanyak
+              pengalaman, dan mempersiapkan diri untuk masa depan.
+            </p>
+          </div>
+        </div>
+
+        <div class="goals-grid">
+          <!-- Goal 1 -->
+          <div class="goal-card glass-card reveal-item">
+            <div class="goal-icon-box">🎓</div>
+            <h3 class="goal-title">Continue Education</h3>
+            <p class="goal-desc">Melanjutkan pendidikan ke perguruan tinggi.</p>
+          </div>
+
+          <!-- Goal 2 -->
+          <div class="goal-card glass-card reveal-item">
+            <div class="goal-icon-box">💻</div>
+            <h3 class="goal-title">Improve Programming</h3>
+            <p class="goal-desc">Terus mengembangkan kemampuan pemrograman.</p>
+          </div>
+
+          <!-- Goal 3 -->
+          <div class="goal-card glass-card reveal-item">
+            <div class="goal-icon-box">🗄️</div>
+            <h3 class="goal-title">Master Database</h3>
+            <p class="goal-desc">Memperdalam pemahaman database.</p>
+          </div>
+
+          <!-- Goal 4 -->
+          <div class="goal-card glass-card reveal-item">
+            <div class="goal-icon-box">🚀</div>
+            <h3 class="goal-title">Build Projects</h3>
+            <p class="goal-desc">Membuat lebih banyak project.</p>
+          </div>
+
+          <!-- Goal 5 -->
+          <div class="goal-card glass-card reveal-item">
+            <div class="goal-icon-box">🌱</div>
+            <h3 class="goal-title">Keep Learning</h3>
+            <p class="goal-desc">Terus belajar dan berkembang.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 11. CONTACT SECTION ================= -->
+    <section id="contact" class="section contact-section">
+      <div class="container">
+        <div class="section-header reveal-item">
+          <span class="section-subtitle">Mari Berjejaring & Berdiskusi</span>
+          <h2 class="section-title">Let's Connect</h2>
+          <div class="section-title-line"></div>
+          <p class="section-intro">
+            Terima kasih sudah mengunjungi portfolio saya. Jika ingin terhubung, silakan mengunjungi social media saya.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Left Column: Social & Info -->
+          <div class="contact-info-panel glass-card reveal-item">
+            <h3 class="contact-panel-title">Informasi Kontak & Media Sosial</h3>
+            <p class="contact-panel-desc">
+              Saya selalu terbuka untuk berdiskusi seputar dunia pendidikan RPL, pemrograman dasar, kolaborasi kegiatan
+              sekolah, atau sekadar bertukar pengalaman belajar.
+            </p>
+
+            <div class="contact-channels">
+              <!-- Official Instagram -->
+              <a href="https://www.instagram.com/myarffa_/" target="_blank" rel="noopener noreferrer"
+                class="contact-item channel-active">
+                <div class="channel-icon ig-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                  </svg>
+                </div>
+                <div class="channel-details">
+                  <span class="channel-title">Instagram (Aktif)</span>
+                  <strong class="channel-value">@myarffa_</strong>
+                  <span class="channel-action">Kunjungi Profil ↗</span>
+                </div>
+              </a>
+
+              <!-- Email Placeholder -->
+              <div class="contact-item channel-placeholder">
+                <div class="channel-icon email-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                  </svg>
+                </div>
+                <div class="channel-details">
+                  <span class="channel-title">Email</span>
+                  <span class="channel-value text-muted">your-email@example.com</span>
+                  <span class="channel-tag">Placeholder</span>
+                </div>
+              </div>
+
+              <!-- GitHub Placeholder -->
+              <div class="contact-item channel-placeholder">
+                <div class="channel-icon github-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path
+                      d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                    </path>
+                  </svg>
+                </div>
+                <div class="channel-details">
+                  <span class="channel-title">GitHub</span>
+                  <span class="channel-value text-muted">Coming Soon</span>
+                  <span class="channel-tag">Dalam Persiapan</span>
+                </div>
+              </div>
+
+              <!-- LinkedIn Placeholder -->
+              <div class="contact-item channel-placeholder">
+                <div class="channel-icon linkedin-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                    <rect x="2" y="9" width="4" height="12"></rect>
+                    <circle cx="4" cy="4" r="2"></circle>
+                  </svg>
+                </div>
+                <div class="channel-details">
+                  <span class="channel-title">LinkedIn</span>
+                  <span class="channel-value text-muted">Coming Soon</span>
+                  <span class="channel-tag">Dalam Persiapan</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column: Interactive Form -->
+          <div class="contact-form-panel glass-card reveal-item">
+            <h3 class="contact-panel-title">Kirim Pesan</h3>
+            <p class="contact-panel-desc">
+              Silakan isi formulir di bawah ini untuk mengirimkan pesan atau saran.
+            </p>
+
+            <form id="contactForm" class="contact-form" novalidate>
+              <div class="form-group">
+                <label for="userName" class="form-label">Name (Nama Lengkap) <span
+                    class="required-star">*</span></label>
+                <div class="input-wrapper">
+                  <input type="text" id="userName" name="userName" class="form-input" placeholder="Masukkan nama Anda"
+                    required>
+                </div>
+                <span class="error-feedback" id="nameError"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="userEmail" class="form-label">Email <span class="required-star">*</span></label>
+                <div class="input-wrapper">
+                  <input type="email" id="userEmail" name="userEmail" class="form-input" placeholder="contoh@email.com"
+                    required>
+                </div>
+                <span class="error-feedback" id="emailError"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="userMessage" class="form-label">Message (Pesan) <span class="required-star">*</span></label>
+                <div class="input-wrapper">
+                  <textarea id="userMessage" name="userMessage" rows="5" class="form-input form-textarea"
+                    placeholder="Tuliskan pesan Anda di sini..." required></textarea>
+                </div>
+                <span class="error-feedback" id="messageError"></span>
+              </div>
+
+              <button type="submit" id="submitBtn" class="btn btn-primary btn-submit">
+                <span class="btn-text">Send Message</span>
+                <svg class="btn-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                  stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="22" y1="2" x2="11" y2="13"></line>
+                  <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                </svg>
+              </button>
+
+              <div class="form-status-msg" id="formStatus" aria-live="polite"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div class="footer-brand">
+        <a href="#home" class="brand-logo footer-logo">Maya<span class="brand-dot">.</span></a>
+        <p class="footer-name">Maya Arfa Miskiya</p>
+        <p class="footer-role">Student of Software Engineering • SMK Negeri Tembarak</p>
+      </div>
+
+      <div class="footer-social">
+        <a href="https://www.instagram.com/myarffa_/" target="_blank" rel="noopener noreferrer"
+          class="footer-social-link">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+          </svg>
+          <span>Instagram: @myarffa_</span>
+        </a>
+      </div>
+
+      <div class="footer-copy">
+        <p>© 2026 Maya Arfa Miskiya. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ================= PROJECT PREVIEW MODAL ================= -->
+  <div id="projectModal" class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modalTitle" hidden>
+    <div class="modal-card glass-card">
+      <div class="modal-header">
+        <h3 id="modalTitle" class="modal-title">Project Details</h3>
+        <button id="closeModalBtn" class="modal-close-btn" aria-label="Tutup Dialog">✕</button>
+      </div>
+      <div class="modal-body">
+        <p id="modalDesc" class="modal-desc"></p>
+        <div class="modal-badge-info">
+          <span>✨ Status: Proyek Pembelajaran SMK RPL</span>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-primary" onclick="closeProjectModal()">Tutup</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+
+</html>
